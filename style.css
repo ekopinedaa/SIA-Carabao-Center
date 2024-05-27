@@ -1,0 +1,88 @@
+body{
+    padding: 50px;
+    color: #002b40;
+    background: #88cef0;
+}
+.container{
+    max-width: 500px;
+    margin:0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #f8f8f8;
+    border-radius: 20px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+
+ h2, h3, h4, h5, h6, td{
+    font-family: "Futura", sans-serif;
+}
+
+h1{
+    color: #f8f8f8;
+}
+
+p, span, label {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: larger;
+}
+
+input[type="submit"] {
+    background-color: #1382cc; /* Background color */
+    color: #f8f8f8; /* Text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block display */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+input[type="submit"]:hover {
+    background-color: #3a9bd8; /* Background color on hover */
+}
+/* Table styles */
+.table {
+    border-radius: 10px; /* Add border-radius */
+}
+
+.bg-container{
+    background-image: url('cb_bg.png'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    border-radius: 20px; /* Optional: Add border radius */
+    padding: 50px;
+}
+
+.bg-container-lp {
+    background-image: url('landingpage-bggg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+button{
+    float: left;
+    display: block;
+    color: #f8f8f8;
+    text-align: center;
+    background: #88cef0;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 18px;
+    border: none;
+    font-size: x-large;
+}
+
+button:hover{
+    background-color: #f8f8f8;
+    color: #002b40;
+    border-radius: 18px;
+}
